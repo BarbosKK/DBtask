@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DatabaseTask.Data.Migrations
 {
     [DbContext(typeof(DatabaseTaskDbContext))]
-    [Migration("20240612063745_init")]
+    [Migration("20240612073343_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
